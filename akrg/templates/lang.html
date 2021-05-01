@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Language Page</title>
+</head>
+<body>
+<form action="/lang" method = "POST">
+	<label style="font-size: 20px;margin-right: 10px;">Your Source Language </label>
+	<select name = "src">
+		<option value="english">English</option>
+		<option value="telugu">Telugu</option>
+		<option value="tamil">Tamil</option>
+	</select>
+<label style="margin-left: 20px;font-size: 20px;margin-right: 10px;">Your Destination Language </label>
+	<select name = "dest">
+		<option value="english">English</option>
+		<option value="telugu">Telugu</option>
+		<option value="tamil">Tamil</option>
+	</select><br>
+	<label style="margin-top:50px;font-size: 20px;margin-right: 10px;">Enter the text you wish to convert </label>
+	<input type="text" name="text" placeholder="Enter Text Here" style="border-radius: 10px; border: 10px 10px 10px 10px;"><br>
+	<button style="margin-top: 50px; width: 150px; height: 30px; border-radius: 10px; background-color: orange; color: black;">Submit</button>
+</form>
+</body>
+</html>
